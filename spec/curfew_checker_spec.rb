@@ -27,7 +27,7 @@ describe "#curfew_checker" do
   end
 
   it "should say you can keep having fun" do 
-    expect(curfew_checker(9)).to eq("Keep having fun!")
+    expect(curfew_checker(9)).to eq("You're in trouble! Better get home quick!"")
   end
 end
 
